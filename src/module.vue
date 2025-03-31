@@ -1,6 +1,6 @@
 <template>
 	<private-view title="My Custom Module">
-		<iframe src="https://preview.airtoursclub.pl/creator" style="width: 100%; height: 100%; border: none;" allowfullscreen></iframe>
+		<iframe src="https://airtoursclub-website.netlify.app/creator" style="width: 100%; height: 100%; border: none;" allowfullscreen></iframe>
 	</private-view>
 </template>
 
@@ -12,6 +12,9 @@ export default defineComponent({});
 
 <style>
 .module-nav {
+	display: none !important;
+}
+.header-bar {
 	display: none !important;
 }
 </style>
