@@ -4,7 +4,7 @@ import ModuleComponent from './module.vue';
 export default defineModule({
 	id: 'atc-offer-creator',
 	name: 'Kreator Ofert',
-	icon: 'wand-stars',
+	icon: 'edit',
 	routes: [
 		{
 			path: '',

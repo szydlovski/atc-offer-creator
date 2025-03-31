@@ -1,5 +1,8 @@
 <template>
-	<private-view title="My Custom Module">Content goes here...</private-view>
+	<private-view title="My Custom Module">
+		<template #navigation>Hello from navigation!</template>
+		<div style="background-color: red;">Hello world!</div>
+	</private-view>
 </template>
 
 <script lang="ts">
