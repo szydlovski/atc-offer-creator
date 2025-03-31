@@ -1,9 +1,10 @@
 <template>
-	<private-view>
-		<div class="foo">bar</div>
-		<iframe src="https://airtoursclub-website.netlify.app/creator" style="width: 100%; height: 100%; border: none;"
-			allowfullscreen />
-	</private-view>
+	<div class="atc-creator-container">
+		<private-view>
+			<iframe src="https://airtoursclub-website.netlify.app/creator" style="width: 100%; height: 100%; border: none;"
+				allowfullscreen />
+		</private-view>
+	</div>
 </template>
 
 <script lang="ts">
@@ -13,17 +14,16 @@ export default defineComponent({});
 </script>
 
 <style scoped>
-.foo {
-	background-color: red;
-	width: 50px;
-	height: 50px;
+.atc-creator-container {
+	width: 100%;
+	height: 100%;
 }
 
-.module-nav {
+.atc-creator-container .module-nav {
 	display: none !important;
 }
 
-.header-bar {
+.atc-creator-container .header-bar {
 	display: none !important;
 }
 </style>
