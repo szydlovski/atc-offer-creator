@@ -13,7 +13,7 @@ import { defineComponent } from 'vue';
 export default defineComponent({});
 </script>
 
-<style scoped>
+<style>
 .atc-creator-container {
 	width: 100%;
 	height: 100%;

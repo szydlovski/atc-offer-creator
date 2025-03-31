@@ -2,7 +2,7 @@
 	"name": "atc-offer-creator",
 	"description": "Moduł Kreatora Ofert",
 	"icon": "edit",
-	"version": "1.0.9",
+	"version": "1.0.10",
 	"keywords": [
 		"directus",
 		"directus-extension",
