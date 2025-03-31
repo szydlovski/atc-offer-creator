@@ -1,6 +1,6 @@
 <template>
 	<private-view>
-		<div class="foo" />
+		<div class="foo">bar</div>
 		<iframe src="https://airtoursclub-website.netlify.app/creator" style="width: 100%; height: 100%; border: none;"
 			allowfullscreen />
 	</private-view>
