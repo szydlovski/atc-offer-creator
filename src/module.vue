@@ -1,7 +1,6 @@
 <template>
 	<private-view title="My Custom Module">
-		<template #navigation>Hello from navigation!</template>
-		<div style="background-color: red;">Hello world! v3</div>
+		<iframe src="https://preview.airtoursclub.pl/creator" style="width: 100%; height: 100%; border: none;" allowfullscreen></iframe>
 	</private-view>
 </template>
 
@@ -12,7 +11,7 @@ export default defineComponent({});
 </script>
 
 <style>
-	.module-nav {
-		display: none !important;
-	}
+.module-nav {
+	display: none !important;
+}
 </style>
