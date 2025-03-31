@@ -1,5 +1,6 @@
 <template>
-	<private-view title="My Custom Module">
+	<private-view>
+		<div class="foo" />
 		<iframe src="https://airtoursclub-website.netlify.app/creator" style="width: 100%; height: 100%; border: none;"
 			allowfullscreen />
 	</private-view>
@@ -12,6 +13,12 @@ export default defineComponent({});
 </script>
 
 <style scoped>
+.foo {
+	background-color: red;
+	width: 50px;
+	height: 50px;
+}
+
 .module-nav {
 	display: none !important;
 }
