@@ -10,3 +10,9 @@ import { defineComponent } from 'vue';
 
 export default defineComponent({});
 </script>
+
+<style>
+	.module-nav {
+		display: none !important;
+	}
+</style>
