@@ -1,7 +1,7 @@
 <template>
 	<private-view title="My Custom Module">
 		<template #navigation>Hello from navigation!</template>
-		<div style="background-color: red;">Hello world!</div>
+		<div style="background-color: red;">Hello world! v3</div>
 	</private-view>
 </template>
 
